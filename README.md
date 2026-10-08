@@ -16,6 +16,12 @@
   <a href="https://www.instagram.com/aviorxt/"><strong>Instagram</strong></a>
 </p>
 
+<p align="center">
+  <a href="https://www.avrxt.dev/signature">
+    <img src="./assets/signature.svg" width="88%" alt="Animated handwritten avrxt signature" />
+  </a>
+</p>
+
 <br />
 
 ## Building with precision.

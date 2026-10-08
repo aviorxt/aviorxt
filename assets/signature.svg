@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Animated avrxt signature</title>
+  <desc id="desc">The custom avrxt signature is drawn in six animated vector-ink strokes.</desc>
+  <defs>
+    <linearGradient id="ink" x1="150" y1="60" x2="1050" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".48" stop-color="#dedede"/>
+      <stop offset="1" stop-color="#858585"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#333333"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <style>
+      .ink {
+        fill: none;
+        stroke: url(#ink);
+        stroke-width: 7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 1;
+        stroke-dashoffset: 1;
+        animation: write 9s cubic-bezier(.55,.05,.3,1) infinite;
+      }
+      .s1 { animation-delay: 0s; }
+      .s2 { animation-delay: .65s; }
+      .s3 { animation-delay: 1.15s; }
+      .s4 { animation-delay: 1.75s; }
+      .s5 { animation-delay: 2.35s; }
+      .s6 { animation-delay: 3s; }
+      @keyframes write {
+        0%, 4% { stroke-dashoffset: 1; opacity: 0; }
+        7% { opacity: 1; }
+        31%, 88% { stroke-dashoffset: 0; opacity: 1; }
+        96%, 100% { stroke-dashoffset: 1; opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ink { animation: none; stroke-dashoffset: 0; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="#050505"/>
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#292929" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="url(#dots)" opacity=".5"/>
+  <path d="M34 58V32H60 M1140 32h26v26 M34 302v26h26 M1166 302v26h-26" fill="none" stroke="#484848" stroke-width="2"/>
+
+  <g fill="#858585" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3">
+    <text x="38" y="80">LIVE INK / 06 STROKES</text>
+    <text x="924" y="326">CUSTOM VECTOR LETTERING</text>
+  </g>
+
+  <g transform="translate(100 -20) scale(1 .88)" pathLength="1" opacity=".12" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M64 272 C112 273 151 250 178 207 C205 164 222 94 202 69 C183 45 151 84 140 145 C126 222 158 286 218 281 C276 276 311 222 337 166"/>
+    <path d="M218 278 C249 270 270 241 290 205 C306 177 320 161 337 166 C351 172 340 207 342 229 C344 251 358 260 377 247 C402 229 418 194 433 168"/>
+    <path d="M376 247 C399 238 421 209 433 168 C439 147 438 127 428 122 C415 116 402 145 402 184 C403 225 427 250 461 245 C492 240 510 214 526 181 C536 160 548 147 559 151 C572 157 555 184 557 207 C559 228 577 235 596 221"/>
+    <path d="M525 245 C554 242 581 219 605 185 C626 156 642 139 654 146 C669 155 640 189 636 216 C632 244 651 256 677 242 C704 228 727 192 748 159 M624 156 C654 188 680 218 715 248"/>
+    <path d="M718 244 C750 239 777 212 793 174 C810 134 818 90 804 78 C791 67 772 94 769 130 C765 180 783 228 818 239 C848 248 879 228 902 199 M742 142 C781 145 826 138 862 122"/>
+    <path d="M80 318 C245 345 458 347 651 323 C753 311 838 291 930 246 C871 288 824 324 789 360"/>
+  </g>
+
+  <g transform="translate(100 -20) scale(1 .88)" pathLength="1">
+    <path class="ink s1" pathLength="1" d="M64 272 C112 273 151 250 178 207 C205 164 222 94 202 69 C183 45 151 84 140 145 C126 222 158 286 218 281 C276 276 311 222 337 166"/>
+    <path class="ink s2" pathLength="1" d="M218 278 C249 270 270 241 290 205 C306 177 320 161 337 166 C351 172 340 207 342 229 C344 251 358 260 377 247 C402 229 418 194 433 168"/>
+    <path class="ink s3" pathLength="1" d="M376 247 C399 238 421 209 433 168 C439 147 438 127 428 122 C415 116 402 145 402 184 C403 225 427 250 461 245 C492 240 510 214 526 181 C536 160 548 147 559 151 C572 157 555 184 557 207 C559 228 577 235 596 221"/>
+    <path class="ink s4" pathLength="1" d="M525 245 C554 242 581 219 605 185 C626 156 642 139 654 146 C669 155 640 189 636 216 C632 244 651 256 677 242 C704 228 727 192 748 159 M624 156 C654 188 680 218 715 248"/>
+    <path class="ink s5" pathLength="1" d="M718 244 C750 239 777 212 793 174 C810 134 818 90 804 78 C791 67 772 94 769 130 C765 180 783 228 818 239 C848 248 879 228 902 199 M742 142 C781 145 826 138 862 122"/>
+    <path class="ink s6" pathLength="1" d="M80 318 C245 345 458 347 651 323 C753 311 838 291 930 246 C871 288 824 324 789 360"/>
+  </g>
+</svg>
