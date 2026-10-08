@@ -1,30 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">AVRXT profile banner</title>
-  <desc id="desc">Independent developer and aircraft maintenance engineer, based in India.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">AVRXT doodle identity banner</title>
+  <desc id="desc">A hand-drawn monochrome collage introducing avrxt, an independent developer and aircraft maintenance engineer from India.</desc>
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1f1f1f" stroke-width="1"/></pattern>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity=".09"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="paper" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#333333" opacity=".65"/>
+      <path d="M13 0v26M0 13h26" stroke="#1f1f1f" stroke-width=".5" opacity=".38"/>
+    </pattern>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#121212"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <filter id="inkGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
   </defs>
-  <rect width="1200" height="420" rx="18" fill="#000000"/>
-  <rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#292929" stroke-width="2"/>
-  <rect width="1200" height="420" rx="18" fill="url(#grid)" opacity=".58"/>
-  <circle cx="1000" cy="92" r="245" fill="url(#glow)"/>
-  <circle cx="110" cy="390" r="150" fill="#ffffff" opacity=".025" filter="url(#soft)"/>
-  <path d="M32 58V32H58 M1142 32h26v26 M32 362v26h26 M1168 362v26h-26" fill="none" stroke="#666666" stroke-width="2"/>
-  <g fill="#858585" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3"><text x="34" y="86">IDENTITY / 01</text><text x="954" y="386">WWW.AVRXT.DEV</text></g>
-  <g font-family="Arial, Helvetica, sans-serif"><text x="72" y="185" fill="#f7f7f7" font-size="104" font-weight="700" letter-spacing="-7">AVRXT</text><text x="78" y="232" fill="#a3a3a3" font-size="16" letter-spacing="3.7">INDEPENDENT DEVELOPER × AIRCRAFT MAINTENANCE ENGINEER</text></g>
-  <path d="M74 253c92-10 184 11 279-2 87-12 146 7 226-1" fill="none" stroke="#dedede" stroke-width="3" stroke-linecap="round"/>
-  <path d="M92 261c116-3 228 8 399 0" fill="none" stroke="#484848" stroke-width="1.5" stroke-linecap="round"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2">
-    <g transform="rotate(-2 125 310)"><rect x="74" y="288" width="134" height="38" fill="#080808" stroke="#484848"/><text x="94" y="312" fill="#bcbcbc">TYPESCRIPT</text></g>
-    <g><rect x="222" y="288" width="112" height="38" fill="#f7f7f7"/><text x="246" y="312" fill="#080808">NEXT.JS</text></g>
-    <g transform="rotate(2 405 307)"><rect x="348" y="288" width="126" height="38" fill="#080808" stroke="#484848" stroke-dasharray="4 4"/><text x="371" y="312" fill="#bcbcbc">WEB / UI</text></g>
+
+  <rect width="1200" height="460" rx="20" fill="#000000"/>
+  <rect x="1" y="1" width="1198" height="458" rx="19" fill="url(#paper)" stroke="#292929" stroke-width="2"/>
+
+  <!-- torn-paper light well -->
+  <path d="M37 42 632 34l13 12-8 351-18 13-588 8-12-17 7-345Z" fill="#080808" stroke="#333333" stroke-width="2"/>
+  <path d="M49 54 621 47" stroke="#484848" stroke-width="1" stroke-dasharray="3 9"/>
+
+  <!-- tape pieces -->
+  <g fill="#bcbcbc" opacity=".22">
+    <path d="m70 27 112-8 4 35-111 8Z"/>
+    <path d="m1077 375 91 12-5 34-94-12Z"/>
+    <path d="m626 67 75 9-5 31-73-8Z"/>
   </g>
-  <g transform="translate(865 203) rotate(-8)" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse rx="169" ry="97" stroke="#484848" stroke-width="2" stroke-dasharray="8 11"/><ellipse rx="112" ry="151" stroke="#292929" stroke-width="2" transform="rotate(58)"/><circle r="77" stroke="#686868" stroke-width="2"/><rect x="-35" y="-35" width="70" height="70" stroke="#d0d0d0" stroke-width="2" transform="rotate(45)"/><circle cx="169" cy="0" r="6" fill="#f7f7f7" stroke="none"/><circle cx="-63" cy="-64" r="4" fill="#858585" stroke="none"/></g>
-  <text x="812" y="219" fill="#f7f7f7" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-3">AV</text>
-  <g transform="translate(827 78) rotate(-7)" fill="none" stroke="#bcbcbc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 23 35 17 57 0l8 1-10 17 32 2 12-7 5 1-7 10 7 10-5 1-12-7-32 2 10 17-8 1-22-17L0 25Z"/><path d="M112 24h56" stroke="#484848" stroke-dasharray="4 7"/></g>
-  <g fill="#858585" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2"><text x="750" y="342" transform="rotate(-7 750 342)">BUILD WITH PRECISION →</text><text x="1037" y="115" transform="rotate(9 1037 115)">INDIA / IST</text></g>
-  <path d="M744 354c54 22 111 16 160-15" fill="none" stroke="#686868" stroke-width="2" stroke-linecap="round"/><path d="m894 333 14 4-9 12" fill="none" stroke="#686868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#d0d0d0"><path d="m680 71 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/><path d="m1088 300 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" opacity=".65"/></g>
+
+  <!-- intro stickers -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="3">
+    <g transform="rotate(-2 143 103)">
+      <rect x="70" y="82" width="178" height="38" rx="3" fill="#f7f7f7"/>
+      <text x="91" y="107" fill="#080808" font-size="13" font-weight="700">HELLO / 01</text>
+    </g>
+    <text x="72" y="385" fill="#666666" font-size="11">INDIA · IST · WWW.AVRXT.DEV</text>
+  </g>
+
+  <!-- personal statement -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="71" y="184" fill="#f7f7f7" font-size="58" font-style="italic">I build for the web,</text>
+    <text x="71" y="251" fill="#d0d0d0" font-size="58" font-style="italic">and work with aircraft.</text>
+  </g>
+  <path d="M71 269c84-13 170 9 255-3 84-12 162 8 246-3" fill="none" stroke="#dedede" stroke-width="3" stroke-linecap="round"/>
+  <path d="M88 278c125-5 278 9 432-1" fill="none" stroke="#484848" stroke-width="1.5" stroke-linecap="round"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="330" fill="#ffffff" font-size="33" font-weight="700" letter-spacing="-1">avrxt</text>
+    <text x="162" y="329" fill="#858585" font-size="14" letter-spacing="2.7">/ ALSO KNOWN AS AVIORXT</text>
+  </g>
+
+  <!-- center curved arrow -->
+  <path d="M585 198c55-42 76-68 115-61" fill="none" stroke="#858585" stroke-width="2" stroke-linecap="round"/>
+  <path d="m686 126 17 11-15 14" fill="none" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="570" y="179" fill="#858585" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" transform="rotate(-21 570 179)">TWO WORLDS / ONE MINDSET</text>
+
+  <!-- right sketch board -->
+  <g transform="rotate(1.5 919 230)">
+    <rect x="706" y="55" width="432" height="350" rx="8" fill="url(#wash)" stroke="#484848" stroke-width="2"/>
+    <rect x="719" y="68" width="406" height="324" rx="5" fill="none" stroke="#292929" stroke-width="1" stroke-dasharray="7 9"/>
+  </g>
+
+  <!-- browser / code doodle -->
+  <g transform="translate(748 103) rotate(-3)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="205" height="132" rx="9" stroke="#d0d0d0" stroke-width="3"/>
+    <path d="M0 29h205" stroke="#686868" stroke-width="2"/>
+    <circle cx="18" cy="15" r="4" fill="#bcbcbc" stroke="none"/>
+    <circle cx="33" cy="15" r="4" fill="#686868" stroke="none"/>
+    <circle cx="48" cy="15" r="4" fill="#484848" stroke="none"/>
+    <path d="m41 62-19 14 19 14M164 62l19 14-19 14M124 52l-26 53" stroke="#e5e5e5" stroke-width="4"/>
+  </g>
+  <text x="768" y="264" fill="#858585" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" transform="rotate(-3 768 264)">BUILD / TEST / REFINE</text>
+
+  <!-- aircraft outline -->
+  <g transform="translate(922 277) rotate(-9)" fill="none" stroke="#e5e5e5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 30 52 22 87-4l13 1-15 27 51 3 19-11 9 2-12 16 12 16-9 2-19-11-51 3 15 27-13 1-35-26L0 36Z"/>
+    <path d="M168 34h67" stroke="#686868" stroke-width="2" stroke-dasharray="5 9"/>
+  </g>
+
+  <!-- wrench doodle -->
+  <g transform="translate(982 93) rotate(17)" fill="none" stroke="#858585" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 0a28 28 0 0 0 25 43l48 48 17-17-48-48A28 28 0 0 0 20 1l17 17-18 18L2 19A28 28 0 0 1 18 0Z"/>
+    <circle cx="98" cy="81" r="5"/>
+  </g>
+
+  <!-- doodle captions -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2">
+    <g transform="rotate(3 813 347)">
+      <rect x="742" y="329" width="175" height="35" fill="#f7f7f7"/>
+      <text x="759" y="352" fill="#080808">DEVELOPER</text>
+    </g>
+    <g transform="rotate(-2 1004 361)">
+      <rect x="931" y="340" width="176" height="36" fill="#080808" stroke="#686868"/>
+      <text x="946" y="364" fill="#d0d0d0">AIRCRAFT MX</text>
+    </g>
+  </g>
+
+  <!-- stars, crosses and imperfect marks -->
+  <g fill="#d0d0d0">
+    <path d="m668 42 4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/>
+    <path d="m1110 224 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" opacity=".75"/>
+  </g>
+  <g stroke="#686868" stroke-width="2" stroke-linecap="round">
+    <path d="M668 346v22M657 357h22"/>
+    <path d="M1151 95v17M1143 103h17"/>
+    <path d="M31 222c17-18 32-15 44 1M29 235c19-13 34-9 43 5"/>
+  </g>
+  <circle cx="687" cy="387" r="17" fill="none" stroke="#484848" stroke-width="2" stroke-dasharray="3 5"/>
+  <circle cx="687" cy="387" r="3" fill="#d0d0d0"/>
 </svg>
