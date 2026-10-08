@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.avrxt.dev">
-    <img src="./assets/profile-banner-doodle.svg" width="100%" alt="AVRXT — independent developer and aircraft maintenance engineer" />
+    <img src="https://raw.githubusercontent.com/aviorxt/aviorxt/8d1211c9285bd566752e9bf2083efb1bbd241d17/assets/profile-banner-doodle.svg?v=doodle-2" width="100%" alt="AVRXT — independent developer and aircraft maintenance engineer" />
   </a>
 </p>
 
