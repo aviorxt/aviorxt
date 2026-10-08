@@ -1,53 +1,89 @@
-<!-- Banner -->
-<h1 align="center">👋 Hi, I'm <span style="color:#6A5ACD">AvrXT</span></h1>
-<h3 align="center">Full-Stack Developer • Web Designer • FiveM Developer</h3>
+<p align="center">
+  <a href="https://www.avrxt.dev">
+    <img src="./assets/profile-banner.svg" width="100%" alt="AVRXT — independent developer and aircraft maintenance engineer" />
+  </a>
+</p>
 
----
+<p align="center">
+  <a href="https://www.avrxt.dev"><strong>Website</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.avrxt.dev/about"><strong>About</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.avrxt.dev/tools"><strong>Tools</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.avrxt.dev/docs"><strong>Docs</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/aviorxt/"><strong>Instagram</strong></a>
+</p>
 
-## 🚀 About Me
-- 💻 Creating modern & stylish web experiences  
-- 🎮 FiveM Developer (Scripts • UI • Optimization)  
-- 🌐 Passionate about UI/UX, Frontend, Backend & Cloud Deployments  
-- ✨ Always exploring new technologies & building cool projects  
+<br />
 
----
+## Building with precision.
 
-## 🛠️ Tech Stack
+I’m **avrxt** — also known as **aviorxt** — an independent developer and aircraft maintenance engineer based in India. I design quiet, purposeful digital products with the same mindset aviation demands: clarity, reliability, and attention to detail.
 
-**Languages & Frameworks**  
-![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-000000?logo=react&logoColor=61DAFB)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)
+My work moves between full-stack engineering, interface design, practical browser tools, APIs, automation, and small experiments that deserve to exist.
 
-**Tools & Platforms**  
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
-![FiveM](https://img.shields.io/badge/FiveM-FF8C00?logo=fivem&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white)
+```text
+CURRENT SIGNAL
+├─ building       avrxt.dev
+├─ exploring      useful web systems + expressive interfaces
+├─ engineering    TypeScript / React / Next.js
+└─ principle      make it clear, make it useful, make it last
+```
 
----
+## Selected work
 
-## 📊 GitHub Stats
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.avrxt.dev">avrxt.dev ↗</a></h3>
+      <p>My personal digital space: experiments, documentation, music signals, legal transparency, and carefully designed public utilities.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Vercel</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.avrxt.dev/tools">Public tools ↗</a></h3>
+      <p>A privacy-conscious collection for network checks, DNS and RDAP inspection, typography, email diagnostics, quotes, and keyboard testing.</p>
+      <p><code>Web APIs</code> <code>Security</code> <code>UI/UX</code> <code>Accessibility</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.avrxt.dev/muzix/chart">Muzix chart ↗</a></h3>
+      <p>A Spotify-powered listening capsule for now-playing status, repeat signals, top artists, tracks, and monthly music patterns.</p>
+      <p><code>Spotify API</code> <code>Data UI</code> <code>OAuth</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.avrxt.dev/signature">Digital signature ↗</a></h3>
+      <p>A code-native identity experiment drawn with animated vector strokes, responsive motion, and a monochrome visual system.</p>
+      <p><code>SVG</code> <code>Motion</code> <code>Creative coding</code></p>
+    </td>
+  </tr>
+</table>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=avrxt&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avrxt&layout=compact&theme=tokyonight)
+## Working toolkit
 
----
+| Layer | Technologies |
+|:--|:--|
+| **Interface** | `TypeScript` · `React` · `Next.js` · `Tailwind CSS` · `HTML` · `CSS` |
+| **Systems** | `Node.js` · `REST APIs` · `Supabase` · `PostgreSQL` · `OAuth` |
+| **Delivery** | `Git` · `GitHub Actions` · `Vercel` · `Cloudflare` |
+| **Craft** | `Responsive design` · `Accessibility` · `SEO` · `Web security` · `Performance` |
 
-## 🔗 Connect With Me
+## How I work
 
-[![Instagram](https://img.shields.io/badge/Instagram-E1306C?logo=instagram&logoColor=white)](https://instagram.com/aviorxt)
-[![Website](https://img.shields.io/badge/Website-000000?logo=vercel&logoColor=white)](https://web.aviorxt.aero)
+- **Useful over noisy.** Every feature should earn its place.
+- **Details are engineering.** Accessibility, responsiveness, security, and polish are part of the product.
+- **Independent by design.** avrxt.dev is personal work, built and maintained by one individual.
 
----
+<br />
 
-## ✨ Profile Badges
-![Profile Views](https://komarev.com/ghpvc/?username=avrxt&color=blue)
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00F700&lines=Full-Stack+Developer;Web+Designer;FiveM+Developer;UI%2FUX+Enthusiast)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://www.avrxt.dev/contact"><strong>Start a conversation</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/aviorxt?tab=repositories"><strong>Explore repositories</strong></a>
+</p>
 
----
-
-### Got it?
+<p align="center">
+  <sub>Designed and maintained with 🩶 by <a href="https://www.instagram.com/aviorxt/">@aviorxt</a></sub>
+</p>
